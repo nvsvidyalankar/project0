@@ -1,0 +1,60 @@
+#myHeader {
+  background-color: #52789d;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.content {
+  border: 3px solid #666;
+  background-color: #d2b48c;
+}
+.content div {
+  padding: 10px;
+}
+.row > div {
+  padding: 5px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: teal;
+}
+.xpr {
+  float: center;
+  width: auto;
+  background: linear-gradient(to bottom, #abd659 0%, #52789d 100%);
+}
+.trait {
+  float: center;
+  width: auto;
+  background-color: #d2b48c;
+}
+@media screen and (max-width: 600px) {
+	div.sshid {
+		display: none;
+	}
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+table {
+  background-color: #d2b48c;
+  margin-left:auto; margin-right:auto;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
